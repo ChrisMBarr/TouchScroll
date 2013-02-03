@@ -1,0 +1,35 @@
+html{
+	background-color:#EEE;
+	margin:0;
+	padding:0 10px;
+}
+body{
+	background-color:#FFF;
+	font-family:Arial;
+	font-size:16px;
+	margin:0 auto;
+	padding:1px 10px;
+	width:600px;
+	
+}
+h3 small{
+	display:block;
+}
+#footer{
+	background-color:#999;
+	margin-top:500px;
+	padding:10px;
+	text-align:center;
+}
+
+
+/*=================*/
+
+
+.scrollable{
+	background-color:#CCC;
+	border:2px solid #777;
+	height:150px;
+	overflow:auto; /*This is what causes the problem on touchscreen devices*/
+	padding:5px;
+}

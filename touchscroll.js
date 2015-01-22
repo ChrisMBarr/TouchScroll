@@ -15,7 +15,7 @@
 
 			document.getElementById(id).addEventListener("touchstart", function(event) {
 				scrollStartPos=this.scrollTop+event.touches[0].pageY;
-				event.preventDefault();
+				event.stopPropagation();
 			},false);
 
 			document.getElementById(id).addEventListener("touchmove", function(event) {
